@@ -1,0 +1,30 @@
+\begin{problem}{Mathematics Lecturer}{standard input}{standard output}{1 second}{256 megabytes}
+
+Pak Blangkon is a mathematics lecturer at Gudang Mantu University who likes positive integers $N$.
+
+One day, while teaching, he surprisingly asked his students a question,
+\begin{itemize}
+\item Suppose $a$ and $b$ are each non-negative integer less than $N$ where $a \neq b$,
+\item Then suppose $S$ is a set where $a,b\in{S}$,
+\item For any $x,y \in S$ where $x \neq y$, then $z\in S$ where $z=(x+y)\operatorname{mod}N$.
+\item How many members is $S$?
+\end{itemize}
+
+Try to answer Pak Blangkon's question!
+
+\InputFile
+The first line contains a positive integer $T$ ($1 \le T \le 1000$) --- the number of test cases in the input.
+
+The next $T$ lines each contain three integers $N$, $a$, and $b$ ($2\leq{N}\leq{10^{18}}, 0 \le a,b<{N},a\neq{b}$) separated by spaces.
+
+\OutputFile
+For each test case print a non-negative integer representing the number of members of $S$.
+
+\Example
+
+\begin{example}
+\exmpfile{example.01}{example.01.a}%
+\end{example}
+
+\end{problem}
+
